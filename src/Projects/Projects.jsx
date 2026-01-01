@@ -18,14 +18,14 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3' >
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="./src/WhatsApp Image 2026-01-01 at 2.18.18 AM.jpeg"
+                        image="src/weatherApp.jpeg"
                         title="img"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Weather Forecast Web App
                         </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                        <Typography variant="body2" sx={{ color: 'text.secondary' }} component="ul" >
                             <ul className='text-white'>
                                 <li>Built a responsive weather web app that fetches and
                                     displays real-time city-based weather data.</li>
@@ -52,14 +52,14 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="./src/WhatsApp Image 2026-01-01 at 2.25.46 AM.jpeg"
+                        image="src/ecommerec.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             E-Commerce Web App
                         </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                        <Typography variant="body2" sx={{ color: 'text.secondary' }} component="ul">
                             <ul className='text-white'>
                                 <li>Built an interactive product-based web application with
                                     search functionality and a clean, card-based product layout.</li>
@@ -89,14 +89,14 @@ const Projects = () => {
                     className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="./src/WhatsApp Image 2026-01-01 at 2.27.23 AM.jpeg"
+                        image="src/quizApp.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Quiz Web App
                         </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                        <Typography variant="body2" sx={{ color: 'text.secondary' }} component="ul">
                            <ul className='text-white'>
                             <li>Developed an MCQ-based quiz application with sequential
                                  questions and multiple-choice options.</li>
@@ -121,14 +121,14 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="./src/Screenshot 2026-01-01 023657.png"
+                        image="src/pass.png"
                         title="green iguana"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Random Password Genetator
                         </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                        <Typography variant="body2" sx={{ color: 'text.secondary' }} component="ul">
                            <ul className='text-white'>
                             <li>Developed a random password generator web 
                                 app with customizable options for length, numbers, and special characters.</li>
@@ -150,14 +150,14 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="./src/WhatsApp Image 2026-01-01 at 7.05.23 AM.jpeg"
+                        image="src/calculator.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Simple Calculator
                         </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                        <Typography variant="body2" sx={{ color: 'text.secondary' }} component="ul">
                            <ul className='text-white'>
                             <li>Built a responsive calculator using HTML, CSS, and JavaScript..</li>
                             <li>Implemented core arithmetic operations with real-time results..</li>

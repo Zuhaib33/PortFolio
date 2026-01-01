@@ -54,7 +54,7 @@ const Home = () => {
                 </a>
             </div>
             <div>
-                <img src=".\src\WhatsApp Image 2026-01-01 at 7.25.44 AM.jpeg" alt=""
+                <img src="src\zuhaib.jpeg" alt=""
                     className='  w-70 h-70 rounded-full mx-2 mb-5 md:mt-18
     object-cover
     border-4 bg-[#27315e]

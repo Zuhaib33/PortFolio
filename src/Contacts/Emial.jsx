@@ -2,29 +2,29 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 let ContactUs
 export default  ContactUs = () => {
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm('service_w8bzti5', 'template_dgmkygj', form.current, {
-  //       publicKey: '_z4fQCVgN8Snf8Qi0',
-  //     })
-  //     .then(
-  //       () => {
-  //         console.log('SUCCESS!');
-  //       },
-  //       (error) => {
-  //         console.log('FAILED...', error.text);
-  //       },
-  //     );
-  // };
+    emailjs
+      .sendForm('service_w8bzti5', 'template_dgmkygj', form.current, {
+        publicKey: '_z4fQCVgN8Snf8Qi0',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
 
   return (
     <div className='bg-[#111424] text-black mt-3 md:mt-15 rounded-lg md:w-1/2 '>
       <form >
-      <label className='text-3xl text-white  ml-3 md:mt-5' >Name</label>
+      <label ref={form} onSubmit={sendEmail} className='text-3xl text-white  ml-3 md:mt-5' >Name</label>
       <br />
       <input type="text" name="name" className='bg-[#3c4052] text-white w-2/3 mx-5 mt-3  
        md:mt-10 text-xl h-8 p-1 duration-300 rounded-xl' />
@@ -41,7 +41,7 @@ export default  ContactUs = () => {
       <br />
       {/* <input type="submit" value="Send" /> */}
       <button type="submit" className={` bg-[#3c4052] text-white w-fit mx-5 mt-3 p-2
-      text-xl  duration-300 rounded-2xl m-2` } >Send</button>
+      text-xl  duration-300 rounded-2xl m-2` } value="Send">Send</button>
     </form>
     </div>
   );
