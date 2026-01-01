@@ -52,7 +52,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="src/ecommerec.jpeg"
+                        image="src/ecommerec.jpeg"skl
                         title="green iguana"
                     />
                     <CardContent>
