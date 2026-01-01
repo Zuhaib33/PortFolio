@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 // import Button from '@mui/material/button';
 import Typography from '@mui/material/Typography';
 
+
 const Projects = () => {
     return (
         <div className='flex flex-wrap justify-around m-1 mt-5 p-1 bg-[#13141b] md:mt-20 rounded-2xl'>
@@ -18,7 +19,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3' >
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="src/weatherApp.jpeg"
+                        image="/public/weatherApp.jpeg"
                         title="img"
                     />
                     <CardContent>
@@ -52,7 +53,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="src/ecommerec.jpeg"skl
+                        image="/public/ecommerec.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
@@ -89,7 +90,7 @@ const Projects = () => {
                     className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="src/quizApp.jpeg"
+                        image="/public/quizApp.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
@@ -121,7 +122,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="src/pass.png"
+                        image="/public/pass.png"
                         title="green iguana"
                     />
                     <CardContent>
@@ -150,7 +151,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="src/calculator.jpeg"
+                        image="/public/calculator.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
