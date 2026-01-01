@@ -54,6 +54,7 @@ const Home = () => {
                 </a>
             </div>
             <div>
+                {/* imge styling */}
                 <img src="src\zuhaib.jpeg" alt=""
                     className='  w-70 h-70 rounded-full mx-2 mb-5 md:mt-18
     object-cover
