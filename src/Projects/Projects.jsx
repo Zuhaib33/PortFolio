@@ -19,7 +19,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3' >
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="/public/weatherApp.jpeg"
+                        image="/weatherApp.jpeg"
                         title="img"
                     />
                     <CardContent>
@@ -53,7 +53,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="/public/ecommerec.jpeg"
+                        image="/ecommerec.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
@@ -90,7 +90,7 @@ const Projects = () => {
                     className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="/public/quizApp.jpeg"
+                        image="/quizApp.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
@@ -122,7 +122,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="/public/pass.png"
+                        image="/pass.png"
                         title="green iguana"
                     />
                     <CardContent>
@@ -151,7 +151,7 @@ const Projects = () => {
                 }} className='mt-3 md:mt-2 mx-3'>
                     <CardMedia
                         sx={{ height: 200 }}
-                        image="/public/calculator.jpeg"
+                        image="/calculator.jpeg"
                         title="green iguana"
                     />
                     <CardContent>
