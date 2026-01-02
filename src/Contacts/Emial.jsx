@@ -14,6 +14,7 @@ export default  ContactUs = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          alrt("Your Email is send successfully")
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -23,8 +24,8 @@ export default  ContactUs = () => {
 
   return (
     <div className='bg-[#111424] text-black mt-3 md:mt-15 rounded-lg md:w-1/2 '>
-      <form >
-      <label ref={form} onSubmit={sendEmail} className='text-3xl text-white  ml-3 md:mt-5' >Name</label>
+      <form ref={form} onSubmit={sendEmail} >
+      <label className='text-3xl text-white  ml-3 md:mt-5' >Name</label>
       <br />
       <input type="text" name="name" className='bg-[#3c4052] text-white w-2/3 mx-5 mt-3  
        md:mt-10 text-xl h-8 p-1 duration-300 rounded-xl' />
