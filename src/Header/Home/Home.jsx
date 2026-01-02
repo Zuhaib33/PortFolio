@@ -55,7 +55,7 @@ const Home = () => {
             </div>
             <div>
                 {/* imge styling */}
-                <img src="public/zuhaib.jpeg" alt=""
+                <img src="/zuhaib.jpeg" alt=""
                     className='  w-70 h-70 rounded-full mx-2 mb-5 md:mt-18
     object-cover
     border-4 bg-[#27315e]
