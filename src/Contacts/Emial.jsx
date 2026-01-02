@@ -14,7 +14,7 @@ export default  ContactUs = () => {
       .then(
         () => {
           console.log('SUCCESS!');
-          alrt("Your Email is send successfully")
+          alert("Your Email is send Successfully.")
         },
         (error) => {
           console.log('FAILED...', error.text);
